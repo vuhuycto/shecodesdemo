@@ -1,0 +1,44 @@
+.article-about {
+	background-color: $color-extra-black;
+	padding: 25rem 0;
+	margin-top: -20vh;
+
+	@include respond(tab-port) {
+		padding: 15rem 0;
+	}
+}
+
+.article-quotes {
+	margin-top: -10rem;
+	background-color: $color-black;
+	padding-bottom: 10rem;
+	transform: skewY(-6deg);
+
+	& > * {
+		transform: skewY(6deg);
+	}
+}
+
+.article-features {
+	background-color: $color-extra-black;
+	padding-top: 30rem;
+	margin-top: -10rem;
+	padding-bottom: 10rem;
+
+	@include respond(tab-port) {
+		padding-top: 20rem;
+	}
+}
+
+.article-register {
+	background-image: linear-gradient(
+			to right bottom,
+			rgba($color-primary, 0.8),
+			rgba($color-secondary, 0.8)
+		),
+		url('../../assets/hackathon.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 50vh;
+	position: relative;
+}
