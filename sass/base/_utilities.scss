@@ -22,6 +22,10 @@
 	}
 }
 
+.u-margin-top-small {
+	margin-bottom: 0.5rem !important;
+}
+
 .u-margin-top-big {
 	margin-top: 6rem !important;
 }
@@ -54,10 +58,30 @@
 	}
 }
 
+.u-padding-bottom-extra-small {
+	padding-bottom: 0.2rem !important;
+}
+
+.u-padding-bottom-medium {
+	padding-bottom: 4rem !important;
+
+	@include respond(tab-port) {
+		padding-bottom: 3rem !important;
+	}
+}
+
 .u-padding-bottom-extra-big {
 	padding-bottom: 20rem !important;
 
 	@include respond(tab-port) {
 		padding-bottom: 17rem !important;
 	}
+}
+
+.u-color-black {
+	color: $color-black !important;
+}
+
+.u-normal-text {
+	text-transform: initial !important;
 }

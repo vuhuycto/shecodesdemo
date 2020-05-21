@@ -1,0 +1,18 @@
+.question {
+	background-color: $color-extra-black;
+	margin-bottom: 1rem;
+	&__text {
+		font-size: 1.6rem;
+		font-weight: 500;
+		padding: 2rem;
+		border: 0.15rem solid $color-grey-dark;
+
+		&:hover {
+			background-color: $color-grey-dark;
+		}
+	}
+}
+
+.answer {
+	display: none;
+}

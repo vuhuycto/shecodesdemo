@@ -1,0 +1,61 @@
+.hackathon-header {
+	width: 100%;
+	margin-top: 6rem;
+	height: 92vh;
+	background-image: linear-gradient(
+		to right bottom,
+		rgba($color-primary, 0.7),
+		rgba($color-secondary, 0.7)
+	);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+.article {
+	&-statistics {
+		background-color: $color-extra-black;
+		padding-top: 15rem;
+		padding-bottom: 15rem;
+	}
+
+	&-purposes {
+		// background-color: $color-black;
+		background-image: linear-gradient(
+				to right,
+				rgba($color-black, 0.8),
+				rgba($color-extra-black, 0.8)
+			),
+			url('../assets/hackathon-mixed.png');
+		background-size: cover;
+		background-position: top;
+		padding-top: 15rem;
+		padding-bottom: 10rem;
+
+		&-box {
+			margin-top: -17rem;
+			opacity: 0.7;
+		}
+	}
+
+	&-evaluation {
+		padding-top: 15rem;
+		background-color: $color-extra-black;
+		padding-bottom: 15rem;
+	}
+
+	&-partner {
+		background-color: $color-black;
+		padding-top: 10rem;
+		padding-bottom: 5rem;
+	}
+
+	&-faqs {
+		background-color: $color-extra-black;
+		padding-bottom: 5rem;
+	}
+}
+
+.icon {
+	font-size: 5rem;
+}

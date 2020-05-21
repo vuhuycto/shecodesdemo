@@ -44,6 +44,13 @@
 			-webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 95%);
 			clip-path: polygon(0 0, 100% 0, 100% 80%, 0 95%);
 		}
+
+		@include respond(tab-port) {
+			@supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+				-webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 95%);
+				clip-path: polygon(0 0, 100% 0, 100% 90%, 0 95%);
+			}
+		}
 	}
 
 	&__text-box {

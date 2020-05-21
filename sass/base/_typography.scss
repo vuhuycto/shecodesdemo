@@ -6,9 +6,31 @@ body {
 }
 
 .heading-primary {
+	font-size: 4.5rem;
+	color: $color-white;
+	text-transform: uppercase;
+
+	@include respond(tab-land) {
+		font-size: 4rem;
+	}
+
+	@include respond(tab-port) {
+		font-size: 3.5rem;
+	}
+
+	@include respond(phone) {
+		font-size: 2.5rem;
+	}
+
+	&--intro {
+		font-size: 3rem;
+		color: $color-white;
+	}
+
 	&--code {
 		display: inline-block;
 		font-family: 'Courier New', Courier, monospace;
+		color: $color-white;
 		font-size: 4rem;
 
 		@include respond(phone) {
@@ -28,6 +50,16 @@ body {
 	display: inline-block;
 	letter-spacing: 0.2rem;
 	transition: all 0.2s;
+
+	&--white {
+		font-size: 4rem;
+		text-transform: uppercase;
+		font-weight: 700;
+		color: $color-white;
+		display: inline-block;
+		letter-spacing: 0.2rem;
+		transition: all 0.2s;
+	}
 }
 
 .heading-tertiary {
