@@ -1,0 +1,17 @@
+.contact {
+	text-align: center;
+
+	&__address {
+		font-size: $default-font-size;
+		padding-top: 3rem;
+	}
+
+	&__link {
+		text-decoration: none;
+		color: $color-white;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}

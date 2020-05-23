@@ -56,7 +56,8 @@
 		}
 
 		&:hover,
-		&:active {
+		&:active,
+		&[href='#'] {
 			outline: none;
 			background-image: linear-gradient(
 				to right,

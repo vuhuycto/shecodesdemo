@@ -57,4 +57,16 @@
 		position: relative;
 		width: $code-width-big;
 	}
+
+	&__about-box {
+		width: 100%;
+		margin-top: 6rem;
+		height: 90vh;
+		background-color: $color-black;
+		border-bottom: 1px solid $color-grey-dark;
+
+		@include respond(small-phone) {
+			height: 110vh;
+		}
+	}
 }

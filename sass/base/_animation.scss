@@ -26,3 +26,12 @@
 		border-right-color: transparent;
 	}
 }
+
+@keyframes dropDown {
+	from {
+		height: 0;
+	}
+	to {
+		height: 100%;
+	}
+}

@@ -1,5 +1,5 @@
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-weight: 400;
 	line-height: 1.7;
 	color: $color-grey-light;
@@ -35,6 +35,26 @@ body {
 
 		@include respond(phone) {
 			font-size: 2rem;
+		}
+	}
+
+	&--main {
+		font-size: 7rem;
+		width: 80%;
+		margin: 0 auto;
+		line-height: 10rem;
+		background-image: linear-gradient(
+			to right,
+			$color-primary,
+			$color-secondary
+		);
+		-webkit-background-clip: text;
+		background-clip: text;
+		color: transparent;
+
+		@include respond(tab-port) {
+			font-size: 4rem;
+			line-height: 6rem;
 		}
 	}
 }

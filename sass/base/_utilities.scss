@@ -2,6 +2,21 @@
 	text-align: center !important;
 }
 
+.u-size-20 {
+	font-size: 2rem !important;
+}
+
+.u-size-14 {
+	font-size: 1.4rem !important;
+}
+
+.u-center-box {
+	clear: both;
+	float: none !important;
+	text-align: center;
+	margin: 0 auto;
+}
+
 .u-margin-bottom-small {
 	margin-bottom: 1.5rem !important;
 }
@@ -56,6 +71,10 @@
 	@include respond(tab-port) {
 		padding-top: 5rem !important;
 	}
+}
+
+.u-padding-top-huge {
+	padding-top: 10rem;
 }
 
 .u-padding-bottom-extra-small {

@@ -3,20 +3,21 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="SheCodes Vietnam" />
+		<meta
+			name="description"
+			content="SheCodes Vietnam Hackathon là một cuộc thi giúp phái nữ nhận thức được tầm quan trọng của công nghệ thông tin trong việc giải quyết những vấn đề xã hội và sức mạnh của công nghệ trong việc tạo nên ảnh hưởng tích cực tới cộng đồng."
+		/>
+		<meta property="og:image" content="images/logo/logo_shecodesgirl.png" />
+		<meta
+			property="og:description"
+			content="SheCodes Vietnam Hackathon là một cuộc thi giúp phái nữ nhận thức được tầm quan trọng của công nghệ thông tin trong việc giải quyết những vấn đề xã hội và sức mạnh của công nghệ trong việc tạo nên ảnh hưởng tích cực tới cộng đồng."
+		/>
 		<link rel="icon" href="assets/favicon.ico" />
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
-		<link
-			href="http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext"
-			rel="stylesheet"
-			type="text/css"
-		/>
-		<link href="css/icon-font.css" rel="stylesheet" type="text/css" />
-		<link
-			href="fontawesome-free-5.13.0-web/css/all.css"
-			rel="stylesheet"
-			type="text/css"
-		/>
-		<title>Document</title>
+		<link rel="stylesheet" href="css/fontawesome-free-5.13.0-web/css/all.css" />
+		<link rel="stylesheet" href="css/icon-font.css" type="text/css" />
+		<title>SheCodes Vietnam Hackathon</title>
 	</head>
 	<body>
 		<header class="header">
@@ -47,17 +48,14 @@
 									<a href="#" class="navigation__link">Hackathon 2020</a>
 								</li>
 								<li class="navigation__item">
-									<a href="#" class="navigation__link">Tech Marathon</a>
+									<a href="" class="navigation__link">Tech Marathon</a>
 								</li>
 								<li class="navigation__item">
-									<a href="#" class="navigation__link">Sự kiện khác</a>
+									<a href="" class="navigation__link">Sự kiện khác</a>
 								</li>
 								<li class="navigation__item">
-									<a href="#" class="navigation__link">Blogs</a>
+									<a href="" class="navigation__link">Blogs</a>
 								</li>
-								<!-- <li class="navigation__item">
-                <a href="#" class="navigation__link">Đăng nhập</a>
-              </li> -->
 							</ul>
 						</nav>
 					</div>
@@ -82,25 +80,25 @@
 				<div class="row">
 					<div class="col-1-of-4">
 						<div class="number-box">
-							<div class="number">264</div>
+							<div class="number">407</div>
 							<p>Người đăng ký</p>
 						</div>
 					</div>
 					<div class="col-1-of-4">
 						<div class="number-box">
-							<div class="number">156</div>
+							<div class="number">299</div>
 							<p>Người tham gia</p>
 						</div>
 					</div>
 					<div class="col-1-of-4">
 						<div class="number-box">
-							<div class="number">3</div>
+							<div class="number">16</div>
 							<p>Công ty</p>
 						</div>
 					</div>
 					<div class="col-1-of-4">
 						<div class="number-box">
-							<div class="number">18</div>
+							<div class="number">41</div>
 							<p>Cố vấn/hướng dẫn viên, khách mời</p>
 						</div>
 					</div>
@@ -109,11 +107,11 @@
 			<article class="article-purposes">
 				<div class="row article-purposes-box">
 					<div class="col-1-of-2">
-						<div class="quote">
+						<div class="card">
 							<h3 class="heading-tertiary">
 								<i class="feature__icon icon-basic-cup"></i>Mục đích
 							</h3>
-							<div class="quote__text">
+							<div class="card__text">
 								<p class="paragraph">
 									Trang bị kiến thức cơ bản về công nghệ, đồng thời định hướng
 									nghề nghiệp cho các bạn trong những ngành nghề liên quan đến
@@ -134,11 +132,11 @@
 						</div>
 					</div>
 					<div class="col-1-of-2">
-						<div class="quote">
+						<div class="card">
 							<h3 class="heading-tertiary">
 								<i class="feature__icon icon-basic-eye"></i>Tầm nhìn
 							</h3>
-							<div class="quote__text">
+							<div class="card__text">
 								<p class="paragraph">
 									Chúng tôi muốn thay đổi tư duy của mọi người về phái nữ trong
 									Công nghệ thông tin và tạo ra một môi trường dám thử sức - dám
@@ -229,16 +227,25 @@
 					</div>
 				</div>
 			</article>
-			<article class="article-faqs">
-				<div class="row u-padding-top-medium u-padding-bottom-medium">
+			<article class="faqs">
+				<div class="row u-padding-top-huge u-padding-bottom-medium">
 					<div class="u-center-text">
 						<h2 class="heading-secondary--white u-padding-bottom-medium">
 							FAQs dành cho hackathon
 						</h2>
 					</div>
 					<div class="question">
-						<h4 class="question__text">&gt; Hackathon là gì?</h4>
-						<div class="answer">
+						<input
+							type="checkbox"
+							class="question__checkbox--1"
+							id="question-toggle--1"
+						/>
+						<h4 class="question__text">
+							<label for="question-toggle--1" class="question__button"
+								>&gt; Hackathon là gì?</label
+							>
+						</h4>
+						<div class="answer--1">
 							<p>
 								Hackathon là một cuộc thi trong đó người tham gia có thể xây
 								dựng và phát triển phần mềm hoặc ứng dụng công nghệ trong một
@@ -253,8 +260,17 @@
 						</div>
 					</div>
 					<div class="question">
-						<h4 class="question__text">&gt; SheCodes Hackathon là gì?</h4>
-						<div class="answer">
+						<input
+							type="checkbox"
+							class="question__checkbox--2"
+							id="question-toggle--2"
+						/>
+						<h4 class="question__text">
+							<label for="question-toggle--2" class="question__button"
+								>&gt; SheCodes Hackathon là gì?</label
+							>
+						</h4>
+						<div class="answer--2">
 							<p>
 								SheCodes Hackathon là sự kiện thường niên của đội ngũ SheCodes
 								Vietnam tại 2 thành phố Hà Nội, Hồ Chí Minh hứa hẹn đem đến sân
@@ -268,15 +284,22 @@
 						</div>
 					</div>
 					<div class="question">
+						<input
+							type="checkbox"
+							class="question__checkbox--3"
+							id="question-toggle--3"
+						/>
 						<h4 class="question__text">
-							&gt; Vì sao mình nên tham dự SheCodes Hackathon 2020?
+							<label for="question-toggle--3" class="question__button"
+								>&gt; Vì sao mình nên tham dự SheCodes Hackathon 2020?</label
+							>
 						</h4>
-						<div class="answer">
+						<div class="answer--3">
 							<p>
 								Bước vào hành trình SheCodes Hackathon 2019, thí sinh và người
 								tham dự sẽ có cơ hội:
 							</p>
-							<ul>
+							<ul class="feature-list">
 								<li>
 									Tham gia các buổi workshop và tech talk có 1-0-2 nhằm trang bị
 									những kiến thức, kĩ năng chuyên môn cần thiết trong ngành IT
@@ -303,11 +326,18 @@
 						</div>
 					</div>
 					<div class="question">
+						<input
+							type="checkbox"
+							class="question__checkbox--4"
+							id="question-toggle--4"
+						/>
 						<h4 class="question__text">
-							&gt; Nếu mình không có bất kì kinh nghiệm lập trình nào thì có
-							tham gia thi được không?
+							<label for="question-toggle--4" class="question__button"
+								>&gt; Nếu mình không có bất kì kinh nghiệm lập trình nào thì có
+								tham gia thi được không?</label
+							>
 						</h4>
-						<div class="answer">
+						<div class="answer--4">
 							<p>
 								Trong một team, không nhất thiết là tất cả các thành viên đều
 								phải có khả năng lập trình. Các kỹ năng khác như design UX/UI,
@@ -333,10 +363,17 @@
 						</div>
 					</div>
 					<div class="question">
+						<input
+							type="checkbox"
+							class="question__checkbox--5"
+							id="question-toggle--5"
+						/>
 						<h4 class="question__text">
-							&gt; Ai có thể dự thi SheCodes Hackathon 2020?
+							<label for="question-toggle--5" class="question__button"
+								>&gt; Ai có thể dự thi SheCodes Hackathon 2020?</label
+							>
 						</h4>
-						<div class="answer">
+						<div class="answer--5">
 							<p>
 								Tất cả các bạn nữ từ 16 tuổi trở lên đều có thể tham gia dự thi
 								nha!
@@ -344,10 +381,18 @@
 						</div>
 					</div>
 					<div class="question">
+						<input
+							type="checkbox"
+							class="question__checkbox--6"
+							id="question-toggle--6"
+						/>
 						<h4 class="question__text">
-							&gt; Nam giới có thể tham dự SheCodes Hackathon 2019 được không?
+							<label for="question-toggle--6" class="question__button"
+								>&gt; Nam giới có thể tham dự SheCodes Hackathon 2019 được
+								không?</label
+							>
 						</h4>
-						<div class="answer">
+						<div class="answer--6">
 							<p>
 								Nam giới có thể tới và tham gia các buổi tech talk và workshop
 								có 1-0-2 với những chuyên gia hàng đầu trong lĩnh vực Công nghệ
@@ -359,11 +404,18 @@
 						</div>
 					</div>
 					<div class="question">
+						<input
+							type="checkbox"
+							class="question__checkbox--7"
+							id="question-toggle--7"
+						/>
 						<h4 class="question__text">
-							&gt; Đội chơi trong hackathon của mình có thể có tối đa bao nhiêu
-							người?
+							<label for="question-toggle--7" class="question__button"
+								>&gt; Đội chơi trong hackathon của mình có thể có tối đa bao
+								nhiêu người?</label
+							>
 						</h4>
-						<div class="answer">
+						<div class="answer--7">
 							<p>
 								Một đội chơi trong SheCodes Hackathon có thể có tối đa 5 người
 								và tối thiểu là 1 người.
@@ -371,10 +423,17 @@
 						</div>
 					</div>
 					<div class="question">
+						<input
+							type="checkbox"
+							class="question__checkbox--8"
+							id="question-toggle--8"
+						/>
 						<h4 class="question__text">
-							&gt; Nếu mình chưa có team/không tìm được team thì sao?
+							<label for="question-toggle--8" class="question__button"
+								>&gt; Nếu mình chưa có team/không tìm được team thì sao?</label
+							>
 						</h4>
-						<div class="answer">
+						<div class="answer--8">
 							<p>
 								Đừng lo! Ban tổ chức sẽ giúp bạn tìm teammates và ghép đội dự
 								thi.
@@ -382,10 +441,18 @@
 						</div>
 					</div>
 					<div class="question">
+						<input
+							type="checkbox"
+							class="question__checkbox--9"
+							id="question-toggle--9"
+						/>
 						<h4 class="question__text">
-							&gt; Mình có mất phí khi tham dự SheCodes Hackathon 2020 không?
+							<label for="question-toggle--9" class="question__button"
+								>&gt; Mình có mất phí khi tham dự SheCodes Hackathon 2020
+								không?</label
+							>
 						</h4>
-						<div class="answer">
+						<div class="answer--9">
 							<p>
 								Hoàn toàn KHÔNG! SheCodes Hackathon 2020 là một sự kiện hoàn
 								toàn miễn phí. Người tham dự sẽ được cung cấp đồ ăn, snack, cà
@@ -397,10 +464,18 @@
 						</div>
 					</div>
 					<div class="question">
+						<input
+							type="checkbox"
+							class="question__checkbox--10"
+							id="question-toggle--10"
+						/>
 						<h4 class="question__text">
-							&gt; Mình nên mang gì khi đến dự thi SheCodes Hackathon 2020?
+							<label for="question-toggle--10" class="question__button"
+								>&gt; Mình nên mang gì khi đến dự thi SheCodes Hackathon
+								2020?</label
+							>
 						</h4>
-						<div class="answer">
+						<div class="answer--10">
 							<p>
 								Laptop, điện thoại, sạc, và một tinh thần ham học hỏi! Ngoài ra
 								bạn có thể mang thêm chăn, gối, và những đồ dùng cá nhân khác.
@@ -408,10 +483,18 @@
 						</div>
 					</div>
 					<div class="question">
+						<input
+							type="checkbox"
+							class="question__checkbox--11"
+							id="question-toggle--11"
+						/>
 						<h4 class="question__text">
-							&gt; Thời gian và địa điểm tổ chức SheCodes Hackathon 2020?
+							<label for="question-toggle--11" class="question__button"
+								>&gt; Thời gian và địa điểm tổ chức SheCodes Hackathon
+								2020?</label
+							>
 						</h4>
-						<div class="answer">
+						<div class="answer--11">
 							<p>
 								Sự kiện sẽ diễn ra trong hai ngày: Địa điểm: Sẽ được thông báo
 								sau
@@ -419,11 +502,18 @@
 						</div>
 					</div>
 					<div class="question">
+						<input
+							type="checkbox"
+							class="question__checkbox--12"
+							id="question-toggle--12"
+						/>
 						<h4 class="question__text">
-							&gt; Nếu không ở Hà Nội thì có thể tham gia SheCodes Hackathon
-							2020 được không?
+							<label for="question-toggle--12" class="question__button"
+								>&gt; Nếu không ở Hà Nội thì có thể tham gia SheCodes Hackathon
+								2020 được không?</label
+							>
 						</h4>
-						<div class="answer">
+						<div class="answer--12">
 							<p>
 								Được! SheCodes Vietnam sẽ hỗ trợ bạn toàn bộ chi phí ăn ở trong
 								thời gian thi. Tuy nhiên, ban tổ chức không hỗ trợ chi phí di
@@ -432,10 +522,17 @@
 						</div>
 					</div>
 					<div class="question">
+						<input
+							type="checkbox"
+							class="question__checkbox--13"
+							id="question-toggle--13"
+						/>
 						<h4 class="question__text">
-							&gt; Hackathon 2020 có gì đặc biệt?
+							<label for="question-toggle--13" class="question__button"
+								>&gt; Hackathon 2020 có gì đặc biệt?</label
+							>
 						</h4>
-						<div class="answer">
+						<div class="answer--13">
 							<p>
 								Câu hỏi của bạn chưa được giải đáp ở trên? Đừng ngần ngại gửi
 								cho ban tổ chức những thắc mắc của bạn qua email
@@ -457,18 +554,21 @@
 					<nav class="footer__navigation">
 						<ul class="footer__list">
 							<li class="footer__item">
-								<a href="#" class="navigation__link">Đội ngũ</a>
+								<a href="staffs.html" class="navigation__link">Đội ngũ</a>
 							</li>
 							<li class="footer__item">
-								<a href="#" class="navigation__link">Liên hệ</a>
+								<a href="contact.html" class="navigation__link">Liên hệ</a>
 							</li>
 							<li class="footer__item">
-								<a href="#" class="navigation__link">Giới thiệu</a>
+								<a href="about.html" class="navigation__link">Giới thiệu</a>
 							</li>
 							<li class="footer__item">
-								<a href="#" class="navigation__link">
+								<a href="" class="navigation__link">
 									Nhà tài trợ
 								</a>
+							</li>
+							<li class="footer__item">
+								<a href="faqs.html" class="navigation__link">FAQs</a>
 							</li>
 						</ul>
 					</nav>
