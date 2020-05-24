@@ -21,7 +21,7 @@
 				rgba($color-primary, 0.8),
 				rgba($color-secondary, 0.8)
 			),
-			url('../../assets/Hackathon-image.png');
+			url('../assets/Hackathon-image.png');
 
 		&__heading {
 			display: block;
@@ -70,7 +70,7 @@
 	}
 
 	&-agenda {
-		background-image: url('../../assets/logodark.png');
+		background-image: url('../assets/logodark.png');
 		background-size: cover;
 		background-position: top;
 		padding-top: 15rem;

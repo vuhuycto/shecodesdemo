@@ -821,7 +821,7 @@ body {
     display: none; }
   @media (max-width: 957px) {
     .hackathon-header {
-      background-image: linear-gradient(to right bottom, rgba(232, 8, 114, 0.8), rgba(89, 35, 104, 0.8)), url("../../assets/Hackathon-image.png"); }
+      background-image: linear-gradient(to right bottom, rgba(232, 8, 114, 0.8), rgba(89, 35, 104, 0.8)), url("../assets/Hackathon-image.png"); }
       .hackathon-header__heading {
         display: block;
         text-align: center;
@@ -856,7 +856,7 @@ body {
   padding-bottom: 5rem; }
 
 .article-agenda {
-  background-image: url("../../assets/logodark.png");
+  background-image: url("../assets/logodark.png");
   background-size: cover;
   background-position: top;
   padding-top: 15rem;
