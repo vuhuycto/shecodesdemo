@@ -38,6 +38,17 @@ body {
 		}
 	}
 
+	&--main-white {
+		font-size: 7rem;
+		color: $color-white;
+		line-height: 10rem;
+
+		@include respond(small-phone) {
+			font-size: 4rem;
+			line-height: 6rem;
+		}
+	}
+
 	&--main {
 		font-size: 7rem;
 		width: 80%;

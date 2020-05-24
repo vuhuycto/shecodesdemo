@@ -13,4 +13,8 @@
 		width: 100%;
 		object-fit: cover;
 	}
+
+	@media (max-width: 957px) {
+		display: none;
+	}
 }

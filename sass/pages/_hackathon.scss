@@ -10,6 +10,25 @@
 	background-position: center;
 	background-size: cover;
 	position: relative;
+
+	&__heading {
+		display: none;
+	}
+
+	@media (max-width: 957px) {
+		background-image: linear-gradient(
+				to right bottom,
+				rgba($color-primary, 0.8),
+				rgba($color-secondary, 0.8)
+			),
+			url('../../assets/Hackathon-image.png');
+
+		&__heading {
+			display: block;
+			text-align: center;
+			@include absCenter;
+		}
+	}
 }
 
 .article {
@@ -48,6 +67,31 @@
 		background-color: $color-black;
 		padding-top: 10rem;
 		padding-bottom: 5rem;
+	}
+
+	&-agenda {
+		background-image: url('../../assets/logodark.png');
+		background-size: cover;
+		background-position: top;
+		padding-top: 15rem;
+		padding-bottom: 10rem;
+		position: relative;
+
+		&__intro {
+			position: absolute;
+			writing-mode: vertical-rl;
+			font-size: 3rem;
+			border: 3px solid $color-white;
+			border-radius: 100px;
+			padding: 1.5rem;
+			top: 50%;
+			right: 2%;
+
+			@include respond(tab-land) {
+				opacity: 0;
+				visibility: hidden;
+			}
+		}
 	}
 }
 

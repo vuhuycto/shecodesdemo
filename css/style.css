@@ -67,6 +67,14 @@ body {
     @media only screen and (max-width: 37.5em) {
       .heading-primary--code {
         font-size: 2rem; } }
+  .heading-primary--main-white {
+    font-size: 7rem;
+    color: #fbfeff;
+    line-height: 10rem; }
+    @media only screen and (max-width: 25em) {
+      .heading-primary--main-white {
+        font-size: 4rem;
+        line-height: 6rem; } }
   .heading-primary--main {
     font-size: 7rem;
     width: 80%;
@@ -114,6 +122,12 @@ body {
 
 .u-center-text {
   text-align: center !important; }
+
+.u-right-text {
+  text-align: right !important; }
+
+.u-left-text {
+  text-align: left !important; }
 
 .u-size-20 {
   font-size: 2rem !important; }
@@ -309,6 +323,9 @@ body {
     height: 100%;
     width: 100%;
     object-fit: cover; }
+  @media (max-width: 957px) {
+    .bg-video {
+      display: none; } }
 
 .number-box {
   font-size: 2rem; }
@@ -536,6 +553,24 @@ body {
   text-align: center; }
   .partner__image {
     width: 80%; }
+
+.agenda {
+  font-size: 2rem; }
+  .agenda__timeline .row:not(:first-child) {
+    margin-top: -6rem; }
+    @media only screen and (max-width: 56.25em) {
+      .agenda__timeline .row:not(:first-child) {
+        margin-top: initial; } }
+  .agenda__timeline .row .col-1-of-3 {
+    text-align: right; }
+  .agenda__timeline .row .col-2-of-3 {
+    text-align: left; }
+  @media only screen and (max-width: 56.25em) {
+    .agenda__timeline .row .col-1-of-3,
+    .agenda__timeline .row .col-2-of-3 {
+      text-align: center; }
+    .agenda__timeline .row .col-2-of-3 {
+      margin-top: -4.5rem; } }
 
 .footer {
   background-color: #161616;
@@ -782,6 +817,18 @@ body {
   background-position: center;
   background-size: cover;
   position: relative; }
+  .hackathon-header__heading {
+    display: none; }
+  @media (max-width: 957px) {
+    .hackathon-header {
+      background-image: linear-gradient(to right bottom, rgba(232, 8, 114, 0.8), rgba(89, 35, 104, 0.8)), url("../../assets/Hackathon-image.png"); }
+      .hackathon-header__heading {
+        display: block;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); } }
 
 .article-statistics {
   background-color: #000;
@@ -807,6 +854,27 @@ body {
   background-color: #161616;
   padding-top: 10rem;
   padding-bottom: 5rem; }
+
+.article-agenda {
+  background-image: url("../../assets/logodark.png");
+  background-size: cover;
+  background-position: top;
+  padding-top: 15rem;
+  padding-bottom: 10rem;
+  position: relative; }
+  .article-agenda__intro {
+    position: absolute;
+    writing-mode: vertical-rl;
+    font-size: 3rem;
+    border: 3px solid #fbfeff;
+    border-radius: 100px;
+    padding: 1.5rem;
+    top: 50%;
+    right: 2%; }
+    @media only screen and (max-width: 75em) {
+      .article-agenda__intro {
+        opacity: 0;
+        visibility: hidden; } }
 
 .icon {
   font-size: 5rem; }
@@ -849,3 +917,31 @@ body {
     margin-top: 15rem; }
     .article-sponsor section:not(:first-child) {
       border-top: 1px solid #3f3f3f; }
+
+.header__tm-image-box {
+  width: 100%;
+  margin-top: 6rem;
+  height: 120vh;
+  background-image: url("../assets/techmarathon.png");
+  background-position: center;
+  background-size: cover;
+  position: relative; }
+  .header__tm-image-box--small {
+    display: none; }
+  @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+    .header__tm-image-box {
+      -webkit-clip-path: none;
+      clip-path: none; } }
+  @media only screen and (max-width: 56.25em) {
+    @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+      .header__tm-image-box {
+        -webkit-clip-path: none;
+        clip-path: none; } } }
+  @media only screen and (max-width: 37.5em) {
+    .header__tm-image-box {
+      background-image: none;
+      background-position: none;
+      background-size: none; }
+      .header__tm-image-box--small {
+        display: block;
+        max-width: 100%; } }

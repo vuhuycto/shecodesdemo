@@ -1,0 +1,36 @@
+.header__tm-image-box {
+	width: 100%;
+	margin-top: 6rem;
+	height: 120vh;
+	background-image: url('../assets/techmarathon.png');
+	background-position: center;
+	background-size: cover;
+	position: relative;
+
+	&--small {
+		display: none;
+	}
+
+	@supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+		-webkit-clip-path: none;
+		clip-path: none;
+	}
+
+	@include respond(tab-port) {
+		@supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+			-webkit-clip-path: none;
+			clip-path: none;
+		}
+	}
+
+	@include respond(phone) {
+		background-image: none;
+		background-position: none;
+		background-size: none;
+
+		&--small {
+			display: block;
+			max-width: 100%;
+		}
+	}
+}
