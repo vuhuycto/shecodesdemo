@@ -983,6 +983,11 @@ body {
   transform: translate(-50%, -50%);
   width: 100%; }
 
+.article-tm-about {
+  background-color: #000;
+  padding-top: 15rem;
+  padding-bottom: 20rem; }
+
 .article-features--special {
   background-color: #161616;
   padding-top: 15rem;
