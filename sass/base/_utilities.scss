@@ -14,6 +14,10 @@
 	font-size: 2rem !important;
 }
 
+.u-size-16 {
+	font-size: 1.6rem !important;
+}
+
 .u-size-14 {
 	font-size: 1.4rem !important;
 }
@@ -45,8 +49,20 @@
 	}
 }
 
+.u-margin-top-extra-small {
+	margin-top: 0.2rem !important;
+}
+
 .u-margin-top-small {
 	margin-bottom: 0.5rem !important;
+}
+
+.u-margin-top-medium {
+	margin-top: 4rem !important;
+
+	@include respond(tab-port) {
+		margin-top: 3rem !important;
+	}
 }
 
 .u-margin-top-big {
@@ -58,11 +74,11 @@
 }
 
 .u-padding-top-extra-small {
-	padding: 0.2rem !important;
+	padding-top: 0.2rem !important;
 }
 
 .u-padding-top-small {
-	padding: 1rem !important;
+	padding-top: 1rem !important;
 }
 
 .u-padding-top-medium {

@@ -1,36 +1,46 @@
 .header__tm-image-box {
 	width: 100%;
 	margin-top: 6rem;
-	height: 120vh;
-	background-image: url('../assets/techmarathon.png');
+	height: 92vh;
+	background-image: linear-gradient(
+		to right bottom,
+		rgba($color-primary, 1),
+		rgba($color-secondary, 1)
+	);
 	background-position: center;
 	background-size: cover;
 	position: relative;
+}
 
-	&--small {
-		display: none;
-	}
+.heading__tm-text-box {
+	@include absCenter;
+	width: 100%;
+}
 
-	@supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
-		-webkit-clip-path: none;
-		clip-path: none;
-	}
+.article-features--special {
+	background-color: $color-black;
+	padding-top: 15rem;
+	padding-bottom: 10rem;
+}
 
-	@include respond(tab-port) {
-		@supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
-			-webkit-clip-path: none;
-			clip-path: none;
-		}
-	}
+.article-progress {
+	background-color: $color-extra-black;
+	padding-top: 16rem;
+	padding-bottom: 10rem;
+}
 
-	@include respond(phone) {
-		background-image: none;
-		background-position: none;
-		background-size: none;
+.article-form {
+	padding-top: 15rem;
+	padding-bottom: 10rem;
+	background-image: linear-gradient(
+		to right bottom,
+		rgba($color-primary, 1),
+		rgba($color-secondary, 1)
+	);
+	background-position: center;
+	background-size: cover;
+}
 
-		&--small {
-			display: block;
-			max-width: 100%;
-		}
-	}
+.special-features {
+	margin-top: -17rem;
 }
