@@ -4,8 +4,8 @@
 	height: 92vh;
 	background-image: linear-gradient(
 		to top,
-		rgba($color-primary, 0.65),
-		rgba($color-primary, 0.65)
+		rgba($color-secondary, 0.65),
+		rgba($color-secondary, 0.65)
 	);
 	background-position: center;
 	background-size: cover;
@@ -93,8 +93,4 @@
 			}
 		}
 	}
-}
-
-.icon {
-	font-size: 5rem;
 }
