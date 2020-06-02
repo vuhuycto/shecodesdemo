@@ -254,7 +254,8 @@ body {
         clip-path: circle(50% at 50% 50%);
         border-radius: none; } }
   .card__image {
-    transform: translate(-50%, -15%); }
+    display: block;
+    max-width: 100%; }
   .card__caption {
     margin-top: 100rem; }
   .card__text {
@@ -588,9 +589,7 @@ body {
 
 .form-box {
   border-radius: 3px;
-  padding-top: 10rem;
-  background-color: #fbfeff;
-  box-shadow: 0rem 1rem 2rem #161616; }
+  padding-top: 10rem; }
 
 .form {
   padding: 10rem; }
@@ -601,7 +600,7 @@ body {
     margin-bottom: 7rem; }
   .form__label {
     display: block;
-    color: #3f3f3f;
+    color: #f0f0f0;
     font-size: 1.6rem;
     font-weight: 500;
     margin-bottom: 1rem; }
@@ -610,7 +609,7 @@ body {
     width: 100%;
     font-size: 1.5rem;
     font-family: inherit;
-    color: #161616;
+    color: #f0f0f0;
     padding: 1.5rem 2rem;
     border: none;
     border-bottom: 1px solid #999;
@@ -865,7 +864,7 @@ body {
   width: 100%;
   margin-top: 6rem;
   height: 92vh;
-  background-image: linear-gradient(to right bottom, rgba(232, 8, 114, 0.7), rgba(89, 35, 104, 0.7));
+  background-image: linear-gradient(to right bottom, rgba(232, 8, 114, 0.65), rgba(89, 35, 104, 0.65));
   background-position: center;
   background-size: cover;
   position: relative; }
@@ -1002,6 +1001,11 @@ body {
   padding-bottom: 10rem; }
 
 .article-form {
+  padding-top: 15rem;
+  padding-bottom: 10rem;
+  background-color: #161616; }
+
+.article-contact {
   padding-top: 15rem;
   padding-bottom: 10rem;
   background-image: linear-gradient(to right bottom, #e80872, #592368);

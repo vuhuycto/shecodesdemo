@@ -27,7 +27,8 @@
 	}
 
 	&__image {
-		transform: translate(-50%, -15%);
+		display: block;
+		max-width: 100%;
 	}
 
 	&__caption {

@@ -38,6 +38,12 @@
 .article-form {
 	padding-top: 15rem;
 	padding-bottom: 10rem;
+	background-color: $color-black;
+}
+
+.article-contact {
+	padding-top: 15rem;
+	padding-bottom: 10rem;
 	background-image: linear-gradient(
 		to right bottom,
 		rgba($color-primary, 1),
