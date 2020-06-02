@@ -559,6 +559,7 @@ body {
     font-size: 2rem;
     padding-top: 3rem; }
   .contact__link {
+    display: block;
     text-decoration: none;
     color: #fbfeff; }
     .contact__link:hover {
@@ -681,6 +682,8 @@ body {
     width: calc( 2 * ((100% - 3 * 6rem) / 4) + 6rem); }
   .row .col-3-of-4 {
     width: calc( 3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
+  .row .col-1-of-5 {
+    width: calc((100% - 4 * 6rem) / 5); }
 
 .header {
   position: relative; }
@@ -864,6 +867,9 @@ body {
   width: 100%;
   margin-top: 6rem;
   height: 92vh;
+  background-image: linear-gradient(to top, rgba(232, 8, 114, 0.65), rgba(232, 8, 114, 0.65));
+  background-position: center;
+  background-size: cover;
   position: relative; }
   .hackathon-header__heading {
     display: none; }
@@ -970,7 +976,7 @@ body {
   width: 100%;
   margin-top: 6rem;
   height: 92vh;
-  background-image: linear-gradient(to right bottom, #e80872, #592368);
+  background-image: linear-gradient(to right, rgba(22, 22, 22, 0.8), rgba(0, 0, 0, 0.8)), url("../assets/precoding-1.png");
   background-position: center;
   background-size: cover;
   position: relative; }
@@ -988,26 +994,28 @@ body {
   padding-bottom: 20rem; }
 
 .article-features--special {
-  background-color: #161616;
+  background-color: #000;
   padding-top: 15rem;
   padding-bottom: 10rem; }
 
 .article-progress {
-  background-color: #000;
-  padding-top: 16rem;
-  padding-bottom: 10rem; }
+  background-image: linear-gradient(to right, rgba(22, 22, 22, 0.8), rgba(0, 0, 0, 0.8)), url("../assets/precoding-2.png");
+  background-position: center;
+  background-size: cover;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+  text-align: center; }
 
 .article-form {
   padding-top: 15rem;
   padding-bottom: 10rem;
-  background-color: #161616; }
+  background-image: linear-gradient(to right, rgba(22, 22, 22, 0.8), rgba(0, 0, 0, 0.8)), url("../assets/precoding-3.jpg");
+  background-position: center;
+  background-size: cover; }
+  .article-form .card {
+    opacity: 0.7; }
 
 .article-contact {
   padding-top: 15rem;
   padding-bottom: 10rem;
-  background-image: linear-gradient(to right bottom, #e80872, #592368);
-  background-position: center;
-  background-size: cover; }
-
-.special-features {
-  margin-top: -17rem; }
+  background-color: #000; }
