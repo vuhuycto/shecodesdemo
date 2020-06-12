@@ -29,27 +29,27 @@
 	&__image-box {
 		width: 100%;
 		margin-top: 6rem;
-		height: 92vh;
+		height: calc(100vh - 6rem);
 		background-image: linear-gradient(
 				to right bottom,
-				rgba($color-primary, 0.75),
-				rgba($color-secondary, 0.75)
+				rgba($color-black, 0.75),
+				rgba($color-black, 0.75)
 			),
-			url('../assets/ava2020.png');
+			url('../assets/hackathon-team-2018.jpg');
 		background-position: center;
 		background-size: cover;
 		position: relative;
 
-		@supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
-			-webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 95%);
-			clip-path: polygon(0 0, 100% 0, 100% 80%, 0 95%);
-		}
+		// @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+		// 	-webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 95%);
+		// 	clip-path: polygon(0 0, 100% 0, 100% 80%, 0 95%);
+		// }
 
 		@include respond(tab-port) {
-			@supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
-				-webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 95%);
-				clip-path: polygon(0 0, 100% 0, 100% 90%, 0 95%);
-			}
+			// @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+			// 	-webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 95%);
+			// 	clip-path: polygon(0 0, 100% 0, 100% 90%, 0 95%);
+			// }
 		}
 	}
 

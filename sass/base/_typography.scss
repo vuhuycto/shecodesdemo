@@ -23,7 +23,7 @@ body {
 	}
 
 	&--intro {
-		font-size: 3rem;
+		font-size: 2.4rem;
 		color: $color-white;
 	}
 
@@ -42,6 +42,17 @@ body {
 		font-size: 7rem;
 		color: $color-white;
 		line-height: 10rem;
+
+		@include respond(tab-port) {
+			font-size: 6rem;
+			line-height: 7rem;
+			margin-bottom: 1rem;
+		}
+
+		@include respond(phone) {
+			font-size: 5rem;
+			line-height: 6rem;
+		}
 
 		@include respond(small-phone) {
 			font-size: 4rem;

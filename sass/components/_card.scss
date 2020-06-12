@@ -12,8 +12,8 @@
 	padding: 2rem;
 
 	&__shape {
-		width: 15rem;
-		height: 15rem;
+		width: 20rem;
+		height: 20rem;
 		margin: 0 auto;
 		overflow: hidden;
 
@@ -41,6 +41,7 @@
 	}
 
 	&__footer {
+		font-style: italic;
 		margin-top: 1rem;
 	}
 }

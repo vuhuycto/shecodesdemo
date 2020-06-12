@@ -6,5 +6,10 @@
 
 	&-heading {
 		font-size: 5rem;
+
+		@include respond(tab-port) {
+			font-size: 4rem;
+			line-height: 6rem;
+		}
 	}
 }

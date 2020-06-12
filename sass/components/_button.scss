@@ -9,7 +9,21 @@
 		border-radius: 2rem;
 		transition: all 0.2s;
 		border: none;
+		position: relative;
+		overflow: hidden;
 		cursor: pointer;
+
+		@include respond(tab-port) {
+			margin: 0 auto;
+			margin-bottom: 1rem;
+		}
+	}
+
+	& > * {
+		display: inline-block;
+		height: 100%;
+		width: 100%;
+		transition: all 0.2s;
 	}
 
 	&:hover {
@@ -36,6 +50,12 @@
 	&--white {
 		color: $color-grey-dark;
 		background-color: $color-white;
+		width: 20rem;
+		margin-right: 1.5rem;
+
+		@include respond(tab-port) {
+			margin-right: 0;
+		}
 	}
 }
 

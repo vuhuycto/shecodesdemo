@@ -1,0 +1,18 @@
+.tab {
+	&__radio {
+		display: none;
+
+		&:checked ~ .tab__text {
+			border-bottom: 3px solid $color-white;
+		}
+	}
+
+	&__text {
+		font-size: 3rem;
+		font-weight: bold;
+
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}

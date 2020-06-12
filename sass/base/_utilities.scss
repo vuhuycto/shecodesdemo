@@ -73,6 +73,10 @@
 	margin-top: 10rem !important;
 }
 
+.u-margin-right-small {
+	margin-right: 1rem !important;
+}
+
 .u-padding-top-extra-small {
 	padding-top: 0.2rem !important;
 }
@@ -119,6 +123,10 @@
 	@include respond(tab-port) {
 		padding-bottom: 17rem !important;
 	}
+}
+
+.u-padding-right-small {
+	padding-right: 1rem !important;
 }
 
 .u-color-black {

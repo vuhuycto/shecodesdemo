@@ -1,0 +1,17 @@
+.countdown {
+  display: inline-block;
+	white-space: nowrap;
+	overflow: hidden;
+
+	@include respond(tab-port) {
+		font-size: 5rem;
+	}
+
+	@include respond(phone) {
+		font-size: 3rem;
+	}
+
+	@include respond(small-phone) {
+		font-size: 2rem;
+	}
+}
