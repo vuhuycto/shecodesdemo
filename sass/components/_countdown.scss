@@ -1,10 +1,14 @@
 .countdown {
-  display: inline-block;
+	display: inline-block;
 	white-space: nowrap;
 	overflow: hidden;
 
-	@include respond(tab-port) {
+	@include respond(tab-land) {
 		font-size: 5rem;
+	}
+
+	@include respond(tab-port) {
+		font-size: 4rem;
 	}
 
 	@include respond(phone) {

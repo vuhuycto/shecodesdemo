@@ -43,8 +43,11 @@ body {
 		color: $color-white;
 		line-height: 10rem;
 
-		@include respond(tab-port) {
+		@include respond(tab-land) {
 			font-size: 6rem;
+		}
+
+		@include respond(tab-port) {
 			line-height: 7rem;
 			margin-bottom: 1rem;
 		}
